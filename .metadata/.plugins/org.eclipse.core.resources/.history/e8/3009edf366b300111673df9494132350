@@ -1,0 +1,5 @@
+package com.klu.subscription.service;
+
+public class SubscriptionService {
+
+}

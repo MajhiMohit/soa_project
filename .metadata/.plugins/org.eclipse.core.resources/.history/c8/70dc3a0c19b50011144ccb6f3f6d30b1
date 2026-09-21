@@ -1,0 +1,69 @@
+package com.klu.member.controller;
+
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import com.klu.member.entity.Member;
+import com.klu.member.service.MemberService;
+
+@RestController
+@RequestMapping("/members")
+public class MemberController {
+
+    private final MemberService memberService;
+
+    public MemberController(MemberService memberService) {
+        this.memberService = memberService;
+    }
+
+    @GetMapping
+    public List<Member> getAllMembers() {
+
+        System.out.println("MEMBER SERVICE INSTANCE: "
+                + System.getProperty("server.port"));
+
+        return memberService.getAllMembers();
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Member> getMemberById(@PathVariable Long id) {
+
+        System.out.println("MEMBER SERVICE INSTANCE: "
+                + System.getProperty("server.port"));
+
+        Member member = memberService.getMemberById(id);
+
+        if (member == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        return ResponseEntity.ok(member);
+    }
+
+    @PostMapping
+    public Member createMember(@RequestBody Member member) {
+        return memberService.createMember(member);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Member> updateMember(
+            @PathVariable Long id,
+            @RequestBody Member member) {
+
+        Member updated = memberService.updateMember(id, member);
+
+        if (updated == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        return ResponseEntity.ok(updated);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteMember(@PathVariable Long id) {
+        memberService.deleteMember(id);
+        return ResponseEntity.noContent().build();
+    }
+}

@@ -1,0 +1,5 @@
+package com.klu.auth.config;
+
+public class SecurityConfig {
+
+}

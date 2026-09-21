@@ -1,0 +1,5 @@
+package com.klu.auth.entity;
+
+public class User {
+
+}

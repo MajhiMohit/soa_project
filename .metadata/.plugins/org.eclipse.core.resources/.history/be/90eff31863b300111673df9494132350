@@ -1,0 +1,5 @@
+package com.klu.member.entity;
+
+public class Member {
+
+}

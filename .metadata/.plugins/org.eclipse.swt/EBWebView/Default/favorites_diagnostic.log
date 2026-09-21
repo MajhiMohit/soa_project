@@ -1,0 +1,19 @@
+2026-09-18 13:26:57.672: [INFO] CurrentProfilePath: D:\soa_project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-18 13:26:57.672: [INFO] Profiles total count: 1
+2026-09-18 13:26:57.672: [INFO] Profile: name=Profile 1 path=D:\soa_project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-18 13:26:57.672: [INFO] LastUsedProfileDir: D:\soa_project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-18 13:26:57.672: [INFO] OnDoneLoading sync enabled: 0
+2026-09-18 13:26:57.672: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-18 13:26:57.672: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-18 13:26:57.672: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-18 19:22:56.652: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-20 13:26:56.043: [INFO] CurrentProfilePath: D:\soa_project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-20 13:26:56.043: [INFO] Profiles total count: 1
+2026-09-20 13:26:56.043: [INFO] Profile: name=Profile 1 path=D:\soa_project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-18T18:56:58.239Z
+2026-09-20 13:26:56.043: [INFO] LastUsedProfileDir: D:\soa_project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-20 13:26:56.043: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\soa_project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-18T18:56:58.239Z
+2026-09-20 13:26:56.043: [INFO] OnDoneLoading sync enabled: 0
+2026-09-20 13:26:56.043: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-20 13:26:56.043: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-20 13:26:56.043: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-20 19:10:19.837: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

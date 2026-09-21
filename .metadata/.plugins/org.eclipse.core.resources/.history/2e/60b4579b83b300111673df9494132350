@@ -1,0 +1,5 @@
+package com.klu.auth.controller;
+
+public class AuthController {
+
+}

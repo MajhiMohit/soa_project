@@ -1,0 +1,5 @@
+package com.klu.auth.repository;
+
+public class UserRepository {
+
+}

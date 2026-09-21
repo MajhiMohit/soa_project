@@ -1,0 +1,5 @@
+package com.klu.attendance.service;
+
+public class AttendanceService {
+
+}

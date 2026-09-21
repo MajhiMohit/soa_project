@@ -1,0 +1,5 @@
+package com.klu.subscription.dto;
+
+public class MemberResponse {
+
+}

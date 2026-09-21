@@ -1,0 +1,5 @@
+package com.klu.subscription.controller;
+
+public class SubscriptionController {
+
+}

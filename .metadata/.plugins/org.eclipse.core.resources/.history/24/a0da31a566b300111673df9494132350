@@ -1,0 +1,5 @@
+package com.klu.subscription.repository;
+
+public class SubscriptionRepository {
+
+}

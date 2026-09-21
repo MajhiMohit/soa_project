@@ -1,0 +1,5 @@
+package com.klu.attendance.dto;
+
+public class MemberResponse {
+
+}

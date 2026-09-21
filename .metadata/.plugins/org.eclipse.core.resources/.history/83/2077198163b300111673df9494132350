@@ -1,0 +1,5 @@
+package com.klu.member.controller;
+
+public class MemberController {
+
+}

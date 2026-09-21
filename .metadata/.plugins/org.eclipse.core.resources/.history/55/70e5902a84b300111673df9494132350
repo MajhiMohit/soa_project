@@ -1,0 +1,5 @@
+package com.klu.auth.security;
+
+public class JwtService {
+
+}

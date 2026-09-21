@@ -1,0 +1,5 @@
+package com.klu.gateway.security;
+
+public class JwtService {
+
+}

@@ -1,0 +1,24 @@
+package com.klu.auth.service;
+
+import org.springframework.stereotype.Service;
+
+import com.klu.auth.entity.User;
+import com.klu.auth.repository.UserRepository;
+
+@Service
+public class AuthService {
+
+    private final UserRepository userRepository;
+
+    public AuthService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public User register(User user) {
+        return userRepository.save(user);
+    }
+
+    public User findByUsername(String username) {
+        return userRepository.findByUsername(username).orElse(null);
+    }
+}
